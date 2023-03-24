@@ -15,7 +15,7 @@ This plugin intends to support linting of ES2015+ (ES6+) import/export syntax, a
 
 I forked this repository to fix a problem I had with it. The problem was that the extensions rule was not working with custom aliases. The problem was fixed with [this pull request](https://github.com/import-js/eslint-plugin-import/pull/2479) but because of reasons I don't know it was not accepted. I forked the main repository and merged the closed pull request and this fixed my problem. To use this version of the package in your application run the following command.
 
-`npm install https://github.com/Sirmov/eslint-plugin-import/tarball/main`
+`npm install https://github.com/Sirmov/eslint-plugin-import/tarball/package --save-dev`
 
 I will try to update this repository to stay in sync with the original package.
 
